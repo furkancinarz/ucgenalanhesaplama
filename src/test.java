@@ -15,7 +15,7 @@ public class test {
         System.out.print("3. Kenarı Giriniz : ");
         c = girdi.nextInt();
 
-        u = (a + b + c) / 2;
+        u = (double) (a + b + c) / 2;
         System.out.println("Üçgen çevresi : " + u);
 
         alan = Math.sqrt(u*(u-a)*(u-b)*(u-c));
